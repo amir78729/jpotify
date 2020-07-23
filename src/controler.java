@@ -7,9 +7,9 @@ import java.io.FileNotFoundException;
 
 public class controler {
 
-//    private static File file = new File("Eminem – Despicable.mp3");
+    private static File file = new File("Eminem – Despicable.mp3");
 //    private static File file = new File("Gdaal - Parvaneh (Ft Shaan).mp3");
-    private static File file = new File("We Got Used To Us.mp3");
+//    private static File file = new File("We Got Used To Us.mp3");
     private static javazoom.jl.player.advanced.AdvancedPlayer player;
 
     {
