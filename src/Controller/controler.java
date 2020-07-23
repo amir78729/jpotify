@@ -13,9 +13,7 @@ public class controler {
 //    private static File file = new File("We Got Used To Us.mp3");
     private static javazoom.jl.player.advanced.AdvancedPlayer player;
 
-    {
 
-    }
     static Runnable runnablePlay = new Runnable() {
         @Override
         public void run() {
