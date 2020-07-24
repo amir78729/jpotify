@@ -40,7 +40,7 @@ public class controler {
 //        playThread.start();
         try {
 
-            FileChooser fileChooser = new FileChooser("E:\\Project\\src\\songs");
+            FileChooser fileChooser = new FileChooser("src/Songs");
             Playlist playlist1 = new Playlist("1");
             Song s1 = new Song(fileChooser.chooseFile());
             Song s2 = new Song(fileChooser.chooseFile());
