@@ -4,6 +4,7 @@ import Model.Player;
 import Model.Playlist;
 import Model.Song;
 import View.FileChooser;
+import View.Frame;
 import javazoom.jl.decoder.JavaLayerException;
 
 import java.io.File;
@@ -38,6 +39,8 @@ public class controler {
 
     public static void main(String[] args)  {
 //        playThread.start();
+        Frame frame = new Frame();
+
         try {
 
             FileChooser fileChooser = new FileChooser("src/Songs");
@@ -53,6 +56,7 @@ public class controler {
             Scanner input = new Scanner(System.in);
             boolean run = true;
             Object pauseLock = new Object();
+            frame.setPlayer(player);
             while (run){
                     switch (input.nextInt()) {
                         case 0:{
